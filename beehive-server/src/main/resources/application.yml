@@ -1,0 +1,22 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://142.171.110.33:5900/beehive?ssl=false
+    username: postgres
+    password: nUrciXVFZ88#@p
+
+
+# Logger Config
+logging:
+  level:
+    com.beehive.model: debug
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+    banner: false
+
+jwt:
+  private.key: classpath:app.key
+  public.key: classpath:app.pub
