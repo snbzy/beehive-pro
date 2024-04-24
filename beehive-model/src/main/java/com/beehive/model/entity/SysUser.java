@@ -2,6 +2,9 @@ package com.beehive.model.entity;
 
 
 import lombok.Data;
+
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.Date;
 
 
@@ -11,7 +14,8 @@ import java.util.Date;
  * @author beehive
  */
 @Data
-public class SysUser {
+public class SysUser implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
 
     /** 用户ID */
@@ -60,4 +64,6 @@ public class SysUser {
 
     /** 最后登录时间 */
     private Date loginDate;
+
+
 }

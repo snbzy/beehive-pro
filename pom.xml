@@ -29,6 +29,7 @@
         <skipTests>false</skipTests>
         <argLine>-Dfile.encoding=UTF-8</argLine>
         <beehive.version>1.0-SNAPSHOT</beehive.version>
+        <jwt.version>0.9.1</jwt.version>
     </properties>
 
     <dependencyManagement>
