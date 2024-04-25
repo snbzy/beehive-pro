@@ -1,4 +1,4 @@
-package com.beehive.model.config;
+package com.beehive.server.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
